@@ -57,7 +57,7 @@ function Navigation() {
             </div>
         </div>
         {/* mobile navigation */}
-        <div className={`absolute w-full shadow-lg h-[50vh] bg-gray-100 py-2 transition-all duration-300 ${openNav ? 'top-[-200%]' : 'top-0'} md:hidden`}>
+        <div className={`absolute w-full shadow-lg h-[50vh] bg-gray-100 py-2 transition-all duration-300 z-9 ${openNav ? 'top-[-200%]' : 'top-0'} md:hidden`}>
             <ul className=' mt-25 gap-4 text-center space-y-5'>
                     {
                         navLinks.map((item) => (
