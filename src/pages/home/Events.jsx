@@ -24,16 +24,16 @@ function Events() {
         <h1 className='text-center text-4xl md:text-6xl font-extrabold text-green-400'>Upcoming Events</h1>
         <table className='w-full mt-10'>
           <thead className='border'>
-            <th className='border-r p-2'>Title</th>
-            <th className='border-r p-2'>Description</th>
-            <th>Date</th>
+            <th className='border-r p-2 border-r-black text-green-400'>Title</th>
+            <th className='border-r p-2 border-r-black text-green-400'>Description</th>
+            <th className='text-green-400'>Date</th>
           </thead>
           <tbody className=''>
               {
                 upcomingEvents.map((item) => (
                   <tr className='border'>
-                  <td className='border-r p-2'>{item.title}</td>
-                  <td className='border-r p-2'>{item.description}</td>
+                  <td className='border-r border-r-black p-2'>{item.title}</td>
+                  <td className='border-r border-r-black p-2'>{item.description}</td>
                   <td className='p-2'>{item.date}</td>
                 </tr>
                 ))
