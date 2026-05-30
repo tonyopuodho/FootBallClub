@@ -21,7 +21,7 @@ function Hero() {
                   <a href="#classes" className='group relative overflow-hidden rounded-full bg-green-600 px-8 py-4 text-white font-medium
                   text-lg inline-flex items-center justify-center transition-all duration-300 transform hover:translate-y-[-2px] hover:shadow-lg
                   '>
-                      <span className='relative z-10'>Register now</span>
+                      <span className='relative z-7'>Register now</span>
                       <div className='absolute inset-0 bg-gradient-to-r from-green-700 to-green-500
                       transform scale-x-0 group-hover:scale-100 transition-all duration-300 origin-left
                       '></div>
@@ -29,7 +29,7 @@ function Hero() {
                   <a href="#classes" className='group relative overflow-hidden rounded-full border-2 px-8 py-4 text-white font-medium
                   text-lg inline-flex items-center justify-center transition-all duration-300 transform hover:translate-y-[-2px] hover:shadow-lg
                   '>
-                      <span className='relative z-10'>Contact us</span>
+                      <span className='relative z-7'>Contact us</span>
                       <div className='absolute inset-0 bg-gradient-to-r from-green-700 to-green-500
                       transform scale-x-0 group-hover:scale-100 transition-all duration-300 origin-left
                       '></div>
